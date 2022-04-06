@@ -1,29 +1,19 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Sep  3 09:47:46 2020
-
-@author: DELL
-"""
-
-
 import re 
 import tweepy 
 from tweepy import OAuthHandler 
 from textblob import TextBlob 
   
 class TwitterClient(object): 
-    ''' 
-    Generic Twitter Class for sentiment analysis. 
-    '''
+   
     def __init__(self): 
         ''' 
         Class constructor or initialization method. 
         '''
         # keys and tokens from the Twitter Dev Console 
-        consumer_key = 'Yn2uZoOvvR6kkjHoY9w11dYNG'
-        consumer_secret = 'uE7hhNLg43e0O6YCSnLflrtfWxs59OJSYqyj8MwELn9yBJ6rVf'
-        access_token = '717945186190381056-QwcEl9Y6DBfS4XAb1b3Q1v24HMpDBQh'
-        access_token_secret = 'elCzvhGOOnhnn7QYJN8PhcIQK4Xvw5MMVW6MgffChLP9i'
+        consumer_key = ''
+        consumer_secret = ''
+        access_token = ''
+        access_token_secret = ''
   
         # attempt authentication 
         try: 
